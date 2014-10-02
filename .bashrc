@@ -100,8 +100,6 @@ fi
 
 export PATH=/home/simon/UNF/fylogeniPipeline/orthomclSoftware-v2.0.2/bin:$PATH
 
-#My shit
-export LS_COLORS=`echo $LS_COLORS|sed 's/34\;42/0\;45/g'`
 
 # uncomment for a colored prompt, if the terminal has the capability; turned                                                                                                        
 # off by default to not distract the user: the focus in a terminal window                                                                                                           
@@ -156,3 +154,6 @@ fi
 # some more ls aliases
 alias lsd='ls -l --color=always | grep ^"d"'
 
+#My shit
+export LS_COLORS=`echo $LS_COLORS|sed 's/34\;42/0\;45/g'`
+export LS_COLORS=`echo $LS_COLORS|sed 's/di=01\;34/di=01\;36/'`
